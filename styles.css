@@ -1,0 +1,89 @@
+/* General Styles */
+body {
+    font-family: 'Garamond', serif;
+    background-color: #FAF3E0;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    text-align: center;
+}
+
+/* Header */
+header {
+    background-color: #2C3E50;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header img {
+    width: 120px; /* Adjusted for a smaller logo */
+}
+
+/* Navigation */
+nav {
+    background-color: #1A252F;
+    padding: 10px 0;
+    margin-bottom: 5px; /* Reduced margin to bring the banner closer */
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+nav ul li {
+    display: inline;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #E5C07B;
+    font-weight: bold;
+}
+
+/* Hero Banner */
+.banner {
+    text-align: center;
+    padding: 10px 0;
+    max-height: 350px; /* Reduced banner height */
+    overflow: hidden;
+}
+.banner img {
+    width: 100%;
+    max-width: 1100px; /* Restrict maximum width */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Main Content */
+.content {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px 20px;
+}
+.content article {
+    background: white;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 30%;
+}
+.content img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Footer */
+footer {
+    display: flex;
+    justify-content: space-between;
+    background: #2C3E50;
+    padding: 20px;
+    color: white;
+}
+.footer-left img {
+    width: 80px;
+}
