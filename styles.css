@@ -44,6 +44,7 @@ nav ul li a {
     text-decoration: none;
     color: #fff;
     font-weight: bold;
+    transition: color 0.3s ease;
 }
 
 nav ul li a:hover {
@@ -124,6 +125,11 @@ footer {
 
 .footer-column ul li {
     margin-bottom: 8px;
+}
+
+.footer-logo {
+    width: 50px;
+    margin-bottom: 15px;
 }
 
 /* Responsive Design */
