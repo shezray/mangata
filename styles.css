@@ -70,6 +70,7 @@ nav ul li a {
     padding: 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     width: 30%;
+    border-radius: 10px;
 }
 .content img {
     width: 100%;
@@ -80,10 +81,76 @@ nav ul li a {
 footer {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     background: #2C3E50;
-    padding: 20px;
+    padding: 20px 40px;
     color: white;
+    border-top: 4px solid #E5C07B; /* Adds a subtle border for separation */
 }
+
+.footer-left {
+    display: flex;
+    align-items: center;
+}
+
 .footer-left img {
-    width: 80px;
+    width: 100px;
+    margin-right: 20px; /* Adds space between logo and text */
+}
+
+.footer-left h3 {
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #E5C07B; /* Matches the accent color */
+}
+
+.footer-left p {
+    margin-top: 5px;
+    font-size: 0.9rem;
+    color: #BDC3C7;
+}
+
+.footer-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.footer-right ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-right ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.footer-right ul li a {
+    text-decoration: none;
+    color: #E5C07B;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.footer-right ul li a:hover {
+    color: #F39C12; /* Changes color on hover */
+}
+
+.footer-right .social-links {
+    display: flex;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.footer-right .social-links a {
+    font-size: 1.5rem;
+    color: #E5C07B;
+    transition: color 0.3s ease;
+}
+
+.footer-right .social-links a:hover {
+    color: #F39C12; /* Social icon hover effect */
 }
